@@ -47,12 +47,21 @@ body {
     background: var(--bg-color);
 }
 
-.logo {
+.foto .logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 2.4rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+/* .logo {
     position: relative;
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
-}
+} */
 
 .navbar {
     position: relative;
@@ -88,7 +97,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('../asset/yo.png') no-repeat;
+    background: url('') no-repeat;
     background-size: cover;
     background-position: center;
 }
